@@ -84,4 +84,13 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
+    //room database
+    implementation("android.arch.persistence.room:runtime:1.1.1")
+    implementation("android.arch.persistence.room:compiler:1.1.1")
+
+
+    //Duplicate class com.google.common.util.concurrent.ListenableFuture
+    // found in modules guava-20.0.jar (com.google.guava:guava:20.0) for this error
+    implementation("com.google.guava:guava:27.0.1-android")
+
 }
